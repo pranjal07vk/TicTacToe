@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
+  background: #f7a7d0;
+  color: #395ea8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,10 +11,10 @@ body {
 
 .app {
   text-align: center;
-  background: #020617;
+  background: #b8eafe;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 20px rgba(134, 131, 131, 0.797);
 }
 
 .board {
@@ -27,7 +27,7 @@ body {
 .cell {
   width: 100px;
   height: 100px;
-  background: #1e293b;
+  background: #ffa5de;
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
@@ -53,4 +53,26 @@ button {
 
 button:hover {
   background: #16a34a;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #073ba2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+
+h1 i {
+  color: #ef4444;             
+  font-size: 2.2rem;        
+  vertical-align: middle;
+}
+
+
+h1 i.fa-xmark,
+h1 i.fa-circle {
+  text-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
 }

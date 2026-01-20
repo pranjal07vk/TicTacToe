@@ -12,7 +12,7 @@ const winningConditions = [
   [0,4,8], [2,4,6]
 ];
 
-// Create board dynamically
+
 function createBoard() {
   board.innerHTML = "";
   gameState.forEach((cell, index) => {
